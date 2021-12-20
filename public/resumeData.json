@@ -1,0 +1,143 @@
+{
+  "main": {
+    "iniciales":"JMG",
+    "name": "José M González",
+    "occupation": "Desarrollador Web",
+    "description": "Persona creativa especializada en el diseño de páginas web y la edición de vídeos",
+    "image": "profilepic.jpg",
+    "bio": "",
+    "contactmessage": "Si deseas más información puedes mandar un correo a mi email personal",
+    "email": "jm.gonzalezsantacruz@gmail.com",
+    "phone": "695277440",
+    "address": {
+      "street": "",
+      "city": "Las Rozas de Madrid",
+      "state": "Madrid",
+      "zip": "28231"
+    },
+    "website": "http://www.jmgonzalezsantacru.wixsite.com/josemariagonzalez",
+    "resumedownload": "",
+    "social": [
+     
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jmgonzalezsantacruz",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/josexygonzalez",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/jmgonzalezsantacruz",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "CV",
+    "education": [
+    
+      {
+        "school": "IES San Juan de la Cruz",
+        "degree": "Desarrollo en Aplicaciones Web ",
+        "graduated": "Marzo 2022",
+        "description": "Las FP en España tienen un nivel altísimo y pude probar en mi propia piel la experiencia de formarme en una profesión con demanda elevada"
+      },
+      {
+        "school": "Universidad Rey Juan Carlos",
+        "degree": "Comunicación Audiovisual",
+        "graduated": "Mayo 2017",
+        "description": "Fue una experiencia apasionante y divertida, a la par que educativa y motivadora"
+      }
+    ],
+    "work": [
+      {
+        "company": "Porcelana y Plata",
+        "title": "Encargado de tienda",
+        "years": "March 2017 - Actualmente",
+        "description": "Encargado de tienda en el centro de Madrid. Supervisión de material y empleados y venta directa al público"
+      },
+      {
+        "company": "TGC",
+        "title": "Profesor de Actividades Extraescolares",
+        "years": "March 2017 - Actualmente",
+        "description": "Enseñanza de Kárate en el CEIP Los Jarales de Las Rozas de Madrid"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "85%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Calculadora",
+        "category": "Realizada en html, útil y práctica incluyendo CSS y JS",
+        "image": "calculadora.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/calculadora",
+        "demo": "trabajos/calculadora/calculadora.html"
+      },
+      {
+        "title": "Contador de Km/h",
+        "category": "Aunque la imagen de fondo no cambie, el cuenta Km aumenta hasta 120",
+        "image": "km.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/cuentakm",
+        "demo": "trabajos/km/cuentakm.html"
+      },
+      {
+        "title": "Cambiar el color al poner cursor encima",
+        "category": "Usando HTML y CSS interno",
+        "image": "colorcursor.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/cambiarColorCursor",
+        "demo": "trabajos/cursor/cambiarcolor.html"
+      },
+      {
+        "title": "Trabajo Fin de Carrera",
+        "category": "Cortometraje de ficción",
+        "image": "corto.jpg",
+        "demo": "https://youtu.be/VfE_t7u497w"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Persona trabajadora y cualificada en diversas especialidades"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
