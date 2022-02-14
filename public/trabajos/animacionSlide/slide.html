@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Prueba</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var num1, num2,resultado;
+
+            $("button").click(function () {
+                num1 = $("#num1").val();
+                num2 = $("#num2").val();
+
+                if (num1 < num2) {
+                    resultado = "B es mayor que A";
+                    $("#pelota2").animate({ left: '250px' });
+
+                } else if (num1 > num2) {
+                    resultado = "A es mayor que B";
+                    $("#pelota2").animate({ bottom: '250px' });
+
+                } else {
+                    resultado = "Los números son iguales. No hay animación";
+                }
+                $("#pelota").animate({opacity:'0'});
+                $("#result").append(resultado);
+                setTimeout('document.location.reload()',2000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    A <input type="number" name="num1" id="num1">
+    <br><br>
+    B <input type="number" name="num2" id="num2">
+    <br><br>
+    <div id="result" style="color:black; font-size:18px;"></div>
+    <br>
+    <button>Empezar prueba</button>
+    <br><br>
+    <div id="pelota2" style="position:absolute;"> 
+        <img src="pelota.png" width="60px;" height="60px;">
+    </div>
+
+    </form>
+</body>
+
+</html>

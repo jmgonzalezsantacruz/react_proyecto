@@ -41,13 +41,13 @@
     "education": [
     
       {
-        "school": "IES San Juan de la Cruz",
+        "school": "IES San Juan de la Cruz (Pozuelo, Madrid)",
         "degree": "Desarrollo en Aplicaciones Web ",
         "graduated": "Marzo 2022",
         "description": "Las FP en España tienen un nivel altísimo y pude probar en mi propia piel la experiencia de formarme en una profesión con demanda elevada"
       },
       {
-        "school": "Universidad Rey Juan Carlos",
+        "school": "Universidad Rey Juan Carlos (Fuenlabrada, Madrid)",
         "degree": "Comunicación Audiovisual",
         "graduated": "Mayo 2017",
         "description": "Fue una experiencia apasionante y divertida, a la par que educativa y motivadora"
@@ -122,6 +122,20 @@
         "demo": "trabajos/cursor/cambiarcolor.html"
       },
       {
+        "title": "Fotos digitales",
+        "category": "Realizado con jQuery y slide",
+        "image": "fotosdigitales.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/slide_fotos_digitales",
+        "demo": "trabajos/fotos_digitales/portfolio.html"
+      },
+      {
+        "title": "Animación Slide",
+        "category": "Realizado con jQuery y slide",
+        "image": "slide.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/animacionslide",
+        "demo": "trabajos/animacionSlide/slide.html"
+      },
+      {
         "title": "Trabajo Fin de Carrera",
         "category": "Cortometraje de ficción",
         "image": "corto.jpg",
@@ -135,8 +149,8 @@
         "text": "Persona trabajadora y cualificada en diversas especialidades"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Mi especialidad es la maquetación Web, la fotografía digital y la edición de vídeos",
+        "user": "José M González | Desarrollador Web"
       }
     ]
   }
