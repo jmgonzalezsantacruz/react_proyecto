@@ -70,31 +70,31 @@
     "skills": [
       {
         "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "85%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "HTML5",
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "CSS",
+        "level": "90%"
       },
       {
-        "name": "MongoDB",
+        "name": "jQuery",
         "level": "60%"
+      },
+      {
+        "name": "Angular",
+        "level": "60%"
+      },
+      {
+        "name": "PhotoShop",
+        "level": "70%"
+      },
+      {
+        "name": "Premiere CC",
+        "level": "85%"
       }
     ]
   },
@@ -136,6 +136,13 @@
         "demo": "trabajos/animacionSlide/slide.html"
       },
       {
+        "title": "Cortometraje de Ficción",
+        "category": "Comedia",
+        "image": "comedia.jpg",
+        "url": "https://github.com/jmgonzalezsantacruz/animacionslide",
+        "demo": "https://www.youtube.com/watch?v=3Bxw6HwQdG8"
+      },
+      {
         "title": "Trabajo Fin de Carrera",
         "category": "Cortometraje de ficción",
         "image": "corto.jpg",
@@ -146,10 +153,7 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Persona trabajadora y cualificada en diversas especialidades"
-      },
-      {
-        "text": "Mi especialidad es la maquetación Web, la fotografía digital y la edición de vídeos",
+        "text": "Sin sacrificio no hay victoria",
         "user": "José M González | Desarrollador Web"
       }
     ]
