@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacion</title>
+    <style>
+        #tenis {
+            padding-top: 350px;
+            animation-duration: 4s;
+            animation-name: pelota;
+            animation-iteration-count: 2.5;
+        }
+
+        @keyframes pelota {
+            from {
+                margin-left: 0%;
+                transition-duration: 20s linear;
+            }
+
+            50% {
+                margin-left: 100%;
+            }
+
+            to {
+                margin-left: 0%;
+            }
+        }
+
+        .box {
+            display: flex;
+            background-image: url('animaciones/pista.jpg');
+            background-size:initial;
+            width: 1000px;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #nadal {
+            width: 150px;
+            height: 300px;
+            padding-left: 70px;
+            padding-top: 200px;
+        }
+
+        #yocovid {
+            width: 300px;
+            height: 220px;
+            padding-top: 225px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <audio controls source src="songs/tenis_mezcla.mp3"></source>
+    </audio>
+    <br><br>
+        <div class="box">
+            <img id="nadal" src="animaciones/nadal.png"><img>
+            <div id="partido">
+                <img id="tenis" src="animaciones/tenis.png" width="5%"><img>
+            </div>
+            <img id="yocovid" src="animaciones/yocovid.png"><img>
+        </div>
+</body>
+
+</html>
